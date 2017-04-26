@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src\\KingCore",
+    "\\src\\KingCore\\Modular",
+    "\\src\\KingCore\\Modular\\Microsoft.AspNetCore.Modules",
+    "\\src\\KingCore\\Modular\\Microsoft.AspNetCore.Modules.Abstractions"
+  ],
+  "PreviewInSolutionExplorer": false
+}

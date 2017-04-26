@@ -1,0 +1,12 @@
+E:\develop\orchard\Orchard2\src\OrchardCore\Microsoft.AspNetCore.Modules.Abstractions\bin\Debug\netstandard1.6\Microsoft.AspNetCore.Modules.Abstractions.deps.json
+E:\develop\orchard\Orchard2\src\OrchardCore\Microsoft.AspNetCore.Modules.Abstractions\bin\Debug\netstandard1.6\Microsoft.AspNetCore.Modules.Abstractions.dll
+E:\develop\orchard\Orchard2\src\OrchardCore\Microsoft.AspNetCore.Modules.Abstractions\bin\Debug\netstandard1.6\Microsoft.AspNetCore.Modules.Abstractions.pdb
+E:\develop\orchard\Orchard2\src\OrchardCore\Microsoft.AspNetCore.Modules.Abstractions\obj\Debug\netstandard1.6\Microsoft.AspNetCore.Modules.Abstractions.AssemblyInfo.cs
+E:\develop\orchard\Orchard2\src\OrchardCore\Microsoft.AspNetCore.Modules.Abstractions\obj\Debug\netstandard1.6\Microsoft.AspNetCore.Modules.Abstractions.dll
+E:\develop\orchard\Orchard2\src\OrchardCore\Microsoft.AspNetCore.Modules.Abstractions\obj\Debug\netstandard1.6\Microsoft.AspNetCore.Modules.Abstractions.pdb
+E:\develop\KingCMS\src\KingCore\Modular\Microsoft.AspNetCore.Modules.Abstractions\bin\Debug\netstandard1.6\Microsoft.AspNetCore.Modules.Abstractions.deps.json
+E:\develop\KingCMS\src\KingCore\Modular\Microsoft.AspNetCore.Modules.Abstractions\obj\Debug\netstandard1.6\Microsoft.AspNetCore.Modules.Abstractions.AssemblyInfo.cs
+E:\develop\KingCMS\src\KingCore\Modular\Microsoft.AspNetCore.Modules.Abstractions\obj\Debug\netstandard1.6\Microsoft.AspNetCore.Modules.Abstractions.dll
+E:\develop\KingCMS\src\KingCore\Modular\Microsoft.AspNetCore.Modules.Abstractions\obj\Debug\netstandard1.6\Microsoft.AspNetCore.Modules.Abstractions.pdb
+E:\develop\KingCMS\src\KingCore\Modular\Microsoft.AspNetCore.Modules.Abstractions\bin\Debug\netstandard1.6\Microsoft.AspNetCore.Modules.Abstractions.dll
+E:\develop\KingCMS\src\KingCore\Modular\Microsoft.AspNetCore.Modules.Abstractions\bin\Debug\netstandard1.6\Microsoft.AspNetCore.Modules.Abstractions.pdb
