@@ -10,3 +10,4 @@ E:\develop\KingCMS\src\KingCore\Modular\Microsoft.AspNetCore.Modules.Abstraction
 E:\develop\KingCMS\src\KingCore\Modular\Microsoft.AspNetCore.Modules.Abstractions\obj\Debug\netstandard1.6\Microsoft.AspNetCore.Modules.Abstractions.pdb
 E:\develop\KingCMS\src\KingCore\Modular\Microsoft.AspNetCore.Modules.Abstractions\bin\Debug\netstandard1.6\Microsoft.AspNetCore.Modules.Abstractions.dll
 E:\develop\KingCMS\src\KingCore\Modular\Microsoft.AspNetCore.Modules.Abstractions\bin\Debug\netstandard1.6\Microsoft.AspNetCore.Modules.Abstractions.pdb
+E:\develop\KingCMS\src\KingCore\Modular\Microsoft.AspNetCore.Modules.Abstractions\obj\Debug\netstandard1.6\Microsoft.AspNetCore.Modules.Abstractions.csprojResolveAssemblyReference.cache

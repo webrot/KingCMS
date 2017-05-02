@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\King.Data.Abstractions\King.Data.Abstractions.csproj" />
+    <ProjectReference Include="..\King.Environment.Shell\King.Environment.Shell.csproj" />
+  </ItemGroup>
+
+</Project>

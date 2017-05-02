@@ -5,9 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Environment\King.Environment.Extensions\King.Environment.Extensions.csproj" />
+    <ProjectReference Include="..\..\Environment\King.Environment.Shell\King.Environment.Shell.csproj" />
     <ProjectReference Include="..\Microsoft.AspNetCore.Modules.Abstractions\Microsoft.AspNetCore.Modules.Abstractions.csproj" />
-    <ProjectReference Include="..\Orchard.Environment.Extensions\Orchard.Environment.Extensions.csproj" />
-    <ProjectReference Include="..\Orchard.Environment.Shell\Orchard.Environment.Shell.csproj" />
   </ItemGroup>
 
   <ItemGroup>

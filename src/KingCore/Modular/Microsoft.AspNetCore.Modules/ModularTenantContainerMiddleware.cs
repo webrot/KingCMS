@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Orchard.Environment.Shell;
+using King.Environment.Shell;
 
 namespace Microsoft.AspNetCore.Modules
 {
@@ -12,18 +12,18 @@ namespace Microsoft.AspNetCore.Modules
     public class ModularTenantContainerMiddleware
     {
         private readonly RequestDelegate _next;
-        private readonly IShellHost _orchardHost;
+        private readonly IShellHost _KingHost;
         private readonly IRunningShellTable _runningShellTable;
         private readonly ILogger _logger;
 
         public ModularTenantContainerMiddleware(
             RequestDelegate next,
-            IShellHost orchardHost,
+            IShellHost KingHost,
             IRunningShellTable runningShellTable,
             ILogger<ModularTenantContainerMiddleware> logger)
         {
             _next = next;
-            _orchardHost = orchardHost;
+            _KingHost = KingHost;
             _runningShellTable = runningShellTable;
             _logger = logger;
         }
@@ -31,7 +31,7 @@ namespace Microsoft.AspNetCore.Modules
         public async Task Invoke(HttpContext httpContext)
         {
             // Ensure all ShellContext are loaded and available.
-            _orchardHost.Initialize();
+            _KingHost.Initialize();
 
             var shellSetting = _runningShellTable.Match(httpContext);
 
@@ -41,7 +41,7 @@ namespace Microsoft.AspNetCore.Modules
             // We only serve the next request if the tenant has been resolved.
             if (shellSetting != null)
             {
-                var shellContext = _orchardHost.GetOrCreateShellContext(shellSetting);
+                var shellContext = _KingHost.GetOrCreateShellContext(shellSetting);
 
                 using (var scope = shellContext.CreateServiceScope())
                 {

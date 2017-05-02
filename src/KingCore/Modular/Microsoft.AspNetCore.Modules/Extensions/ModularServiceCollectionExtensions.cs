@@ -3,12 +3,12 @@ using System.Linq;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Modules;
 using Microsoft.Extensions.Configuration;
-using Orchard.Environment.Extensions;
-using Orchard.Environment.Extensions.Manifests;
-using Orchard.Environment.Shell;
-using Orchard.Environment.Shell.Descriptor;
-using Orchard.Environment.Shell.Descriptor.Models;
-using Orchard.Environment.Shell.Descriptor.Settings;
+using King.Environment.Extensions;
+using King.Environment.Extensions.Manifests;
+using King.Environment.Shell;
+using King.Environment.Shell.Descriptor;
+using King.Environment.Shell.Descriptor.Models;
+using King.Environment.Shell.Descriptor.Settings;
 
 namespace Microsoft.Extensions.DependencyInjection
 {

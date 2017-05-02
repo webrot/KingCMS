@@ -3,7 +3,7 @@ using System.IO;
 using Microsoft.AspNetCore.Modules;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.FileProviders;
-using Orchard.Environment.Extensions;
+using King.Environment.Extensions;
 
 namespace Microsoft.AspNetCore.Builder
 {

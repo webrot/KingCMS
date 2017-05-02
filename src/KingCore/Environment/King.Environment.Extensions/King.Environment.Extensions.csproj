@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\King.Parser.Yaml\King.Parser.Yaml.csproj" />
+    <ProjectReference Include="..\..\Modular\Microsoft.AspNetCore.Modules.Abstractions\Microsoft.AspNetCore.Modules.Abstractions.csproj" />
+    <ProjectReference Include="..\King.Environment.Cache.Abstractions\King.Environment.Cache.Abstractions.csproj" />
+    <ProjectReference Include="..\King.Environment.Extensions.Abstractions\King.Environment.Extensions.Abstractions.csproj" />
+    <ProjectReference Include="..\King.Environment.Shell.Abstractions\King.Environment.Shell.Abstractions.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Threading.Tasks.Parallel" Version="4.3.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Localization.Abstractions" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="1.1.1" />
+  </ItemGroup>
+
+</Project>
